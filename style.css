@@ -1,5 +1,5 @@
 body{
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
 
@@ -19,11 +19,9 @@ header a{
     text-decoration: none;
 }
 
-img{
+header img{
     height: 100px;
     margin-right: 60px;
-   
-
 }
 
 nav ul {
@@ -58,4 +56,47 @@ nav ul li a:hover {
     background-color: gray;
     border-color: rgb(109, 109, 109);
     color: red
+}
+
+nav{
+    margin-bottom: 40px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+}
+
+/*Grid*/
+
+.texto{
+    grid-area: izquierda;
+    margin-left: 5vw;
+    width: 40vw;
+}
+
+.imagen{
+    margin-right: 5vw;
+    grid-area: derecha;
+    width: 40vw;
+}
+
+.imagen img{
+    width: 40vw;
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.contenedor_grid{
+    display: grid; /*Utilizo el display:grid para establecer que va a haber grid ahí*/
+    grid-template-columns: 2fr; /*Como solo hay una columna, pongo 1fr. Si hubieran dos podría poner: 1fr 1fr por ejemplo*/
+    grid-template-areas:
+    "izquierda derecha";
+    gap: 5vw;
+    max-width: 100vw;
+    margin-right: 2vw;
+    align-items: center;
 }
