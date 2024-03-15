@@ -170,8 +170,8 @@ p{
 
 
 table {
-    width: 100%; /* Ancho de la tabla */
-    max-width: 600px; /* Ancho máximo de la tabla */
+    width: 100%; 
+    max-width: 600px; 
     border-collapse: collapse;
 }
 
@@ -187,14 +187,14 @@ th {
     background-color: rgb(247, 60, 60);
     color: black;
     border: 1px solid black;
-    padding: 15px; /* Espaciado interno de las celdas */
+    padding: 15px; 
     text-align: center;
 }
 
 td {
     color: black;
     border: 1px solid black;
-    padding: 7px; /* Espaciado interno de las celdas */
+    padding: 7px;
     text-align: center;
 }
 
