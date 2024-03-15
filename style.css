@@ -25,3 +25,38 @@ img{
    
 
 }
+
+nav ul {
+    background-color: rgb(154, 146, 146);
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+    margin-top: auto;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+    font-size: 25px;
+}
+
+nav ul li a {
+  
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid transparent;
+    display: inline-block;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+nav a{
+    margin-right: 60px;
+  
+}
+nav ul li a:hover {
+    background-color: gray;
+    border-color: rgb(109, 109, 109);
+    color: red
+}
