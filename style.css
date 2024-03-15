@@ -100,3 +100,17 @@ p{
     margin-right: 2vw;
     align-items: center;
 }
+
+
+.contenedor {
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.FotoClasificacion {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    max-width: 100%;
+    max-height: 100%;
+}
