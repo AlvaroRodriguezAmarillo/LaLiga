@@ -90,6 +90,24 @@ p{
     border-radius: 10px;
 }
 
+.texto2{
+    grid-area: derecha;
+    margin-right: 5vw;
+    width: 40vw;
+}
+
+.imagen2{
+    margin-left: 5vw;
+    grid-area: izquierda;
+    width: 40vw;
+}
+
+.imagen2 img{
+    width: 40vw;
+    border: solid 2px;
+    border-radius: 10px;
+}
+
 .contenedor_grid{
     display: grid; /*Utilizo el display:grid para establecer que va a haber grid ahí*/
     grid-template-columns: 2fr; /*Como solo hay una columna, pongo 1fr. Si hubieran dos podría poner: 1fr 1fr por ejemplo*/
