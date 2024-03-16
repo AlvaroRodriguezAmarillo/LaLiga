@@ -200,6 +200,7 @@ table {
     width: 50%;
     margin: auto;
     background-color: white;
+    margin-bottom: 50px;
 }
 
 th {
@@ -224,4 +225,14 @@ td:first-child {
 tr:hover {
     background-color: rgb(196, 159, 159);
     transform: scale(1.01);
+}
+
+footer{
+    background-color: rgb(247, 60, 60);
+    padding: 20px;
+    text-align: center;
+}
+
+footer p{
+    font-size: 20px;
 }
