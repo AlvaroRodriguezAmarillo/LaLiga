@@ -90,6 +90,24 @@ p{
     border-radius: 10px;
 }
 
+.texto2{
+    grid-area: derecha;
+    margin-right: 5vw;
+    width: 40vw;
+}
+
+.imagen2{
+    margin-left: 5vw;
+    grid-area: izquierda;
+    width: 40vw;
+}
+
+.imagen2 img{
+    width: 40vw;
+    border: solid 2px;
+    border-radius: 10px;
+}
+
 .contenedor_grid{
     display: grid; /*Utilizo el display:grid para establecer que va a haber grid ahí*/
     grid-template-columns: 2fr; /*Como solo hay una columna, pongo 1fr. Si hubieran dos podría poner: 1fr 1fr por ejemplo*/
@@ -99,6 +117,7 @@ p{
     max-width: 100vw;
     margin-right: 2vw;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 
@@ -181,6 +200,7 @@ table {
     width: 50%;
     margin: auto;
     background-color: white;
+    margin-bottom: 50px;
 }
 
 th {
@@ -205,4 +225,14 @@ td:first-child {
 tr:hover {
     background-color: rgb(196, 159, 159);
     transform: scale(1.01);
+}
+
+footer{
+    background-color: rgb(247, 60, 60);
+    padding: 20px;
+    text-align: center;
+}
+
+footer p{
+    font-size: 20px;
 }
