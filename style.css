@@ -166,3 +166,43 @@ p{
 .formulario button:hover {
     transform: scale(1.05);
 }
+
+
+/*Partidos*/
+table {
+    width: 100%; /* Ancho de la tabla */
+    max-width: 600px; /* Ancho máximo de la tabla */
+    border-collapse: collapse;
+}
+
+.contenedor-tabla {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+}
+
+th {
+    background-color: rgb(247, 60, 60);
+    color: black;
+    border: 1px solid black;
+    padding: 15px; /* Espaciado interno de las celdas */
+    text-align: center;
+}
+
+td {
+    color: black;
+    border: 1px solid black;
+    padding: 7px; /* Espaciado interno de las celdas */
+    text-align: center;
+}
+
+td:first-child {
+    width: 50%;
+}
+
+tr:hover {
+    background-color: rgb(196, 159, 159);
+    transform: scale(1.01);
+}
